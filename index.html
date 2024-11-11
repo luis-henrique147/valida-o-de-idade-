@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de idade</title>
+</head>
+
+<body>
+
+    <h1>Validação de Idade</h1>
+
+
+    <div class="formulario">
+        <p id="p1">Por favor, digite sua idade</p>
+        <input type="numbre" name="" id="idadeInput">
+        <button onclick=" verificarIdade()">Verificar</button>
+        
+        <p id="mexer">As bebidas alcoólicas são apreciadas em todo o mundo em diversas situações — desde encontros sociais e celebrações até momentos de relaxamento. A compra de bebidas alcoólicas, anteriormente restrita às lojas físicas, evoluiu com o tempo, e hoje é possível fazer compras de forma prática e segura pela internet. No entanto, escolher o tipo certo de bebida e o melhor site para comprá-la exige alguns cuidados.</p>
+    </div>
+
+
+
+<footer>
+    <p id="mexer2">Compre sua bebida aqui 2024</p>
+</footer>
+
+
+    <script>
+        function verificarIdade() {
+            const idade = parseInt(document.getElementById("idadeInput").value);
+
+
+            if (idade >= 18) {
+
+                window.location.href = "meusite.html";
+            } else {
+
+                window.location.href = "menor.html";
+            }
+
+
+
+
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

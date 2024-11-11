@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://wallpapers.com/images/hd/red-abstract-background-ictdsvtkazscp2y5.jpg);
+}
+
+
+
+.form {
+    color: aliceblue;
+    background-image: url(https://play-lh.googleusercontent.com/Ns_G2F1V5RYg4FJB1idgF09vNLU6ndNZdiwD4PXn4UZcf8O340acncrbHKyRBiIanw=w7680-h4320);
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 27%;
+    top: 20%;
+    /* transform: translate(50%, 50%); */
+}
